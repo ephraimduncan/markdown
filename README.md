@@ -1,6 +1,6 @@
 # Markdown UI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![markdown-ui on NPM](https://img.shields.io/npm/v/markdown-ui.svg?color=green&label=markdown-ui)](https://www.npmjs.com/package/markdown-ui)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![markdown-css on NPM](https://img.shields.io/npm/v/markdown-css.svg?color=green&label=markdown-css)](https://www.npmjs.com/package/markdown-css)
 
 A no-class minimalist front-end design tool kit that mimics and replicate Github Markdown representation styling.
 
@@ -10,13 +10,13 @@ A no-class minimalist front-end design tool kit that mimics and replicate Github
 
 ### CSS quick start (easy)
 
-- [Download the stylesheet](https://dephraiim.github.io/markdown/dist/css/markdown.css) or use the CDN URL: [https://unpkg.com/markdown-ui/dist/css/markdown.css](https://unpkg.com/markdown-ui/dist/css/markdown.css).
+- [Download the stylesheet](https://dephraiim.github.io/markdown/dist/css/markdown.css) or use the CDN URL: [https://unpkg.com/markdown-css/dist/css/markdown.css](https://unpkg.com/markdown-css/dist/css/markdown.css).
 - Save the stylesheet and link to it in the head of your project.
 
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/markdown-ui/dist/css/markdown.css"
+  href="https://unpkg.com/markdown-css/dist/css/markdown.css"
 />
 ```
 
