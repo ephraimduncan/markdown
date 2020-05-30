@@ -1,0 +1,59 @@
+header {
+  display: block;
+  margin: auto;
+  display: block;
+  text-align: center;
+  height: 200px;
+}
+
+table code {
+  padding: 0;
+}
+
+footer {
+  padding: auto;
+  text-align: center;
+}
+
+.license {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+
+  p,
+  li,
+  a {
+    font-size: 14px;
+  }
+
+  code {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h3,
+  h4 {
+    font-size: 20px;
+  }
+
+  tr,
+  th,
+  td {
+    padding: 5px 10px;
+  }
+
+  header {
+    padding: 30px;
+    margin: 0;
+  }
+  pre {
+    width: 100%;
+  }
+}

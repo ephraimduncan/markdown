@@ -1,0 +1,17 @@
+/* Blockquotes */
+/* TODO: Fix Nested Blockquotes */
+blockquote {
+  padding: 5px;
+  page-break-inside: avoid;
+
+  blockquote,
+  p {
+    color: $bq-color;
+    border-left: 5px solid $bq-border;
+    padding: 0px 15px;
+  }
+
+  p {
+    padding: 2px 15px;
+  }
+}

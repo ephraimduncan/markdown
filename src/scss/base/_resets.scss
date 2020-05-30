@@ -1,0 +1,17 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Open Sans", sans-serif;
+  font-size: 18px;
+  color: $primary;
+}
+
+body {
+  margin: 40px auto;
+  width: 60%;
+  * {
+    padding-left: 10px;
+  }
+}

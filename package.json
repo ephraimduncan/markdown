@@ -1,0 +1,37 @@
+{
+  "name": "markdown-ui",
+  "version": "0.5.0",
+  "author": "Ephraim Atta-Duncan <ephraimduncan68@gmail.com>",
+  "description": "A minimalist front-end design toolkit to replicate Github Markdown styling",
+  "homepage": "https://dephraiim.github.io/primitive",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dephraiim/markdown.git"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "sass": "node-sass ./src/scss/ -o ./dist/css/ -w -r --source-map-embed --source-map-contents --output-style expanded | node-sass ./src/scss/main.scss ./dist/css/main.min.css -w --output-style compressed",
+    "sass:docs": "node-sass -w -r ./src/scss/ -o ./docs/css/"
+  },
+  "keywords": [
+    "sass",
+    "setup",
+    "boilerplate",
+    "framework",
+    "ui",
+    "css framework",
+    "front end",
+    "design"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dephraiim/markdown/issues"
+  },
+  "private": false
+}

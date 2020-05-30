@@ -1,0 +1,42 @@
+/* Headings */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: $h-color;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid $h-border;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: $h-color;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid $h-border;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: $h-color;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+h4 {
+  @extend h3;
+  font-size: 1.1rem;
+}
+
+h5 {
+  @extend h3;
+  font-size: 0.95rem;
+}
+h6 {
+  @extend h3;
+  font-size: 0.9rem;
+  color: $h6-color;
+}

@@ -1,0 +1,19 @@
+/* Table */
+table {
+  display: block;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  * {
+    border: 1px solid $table-border;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  th {
+    font-weight: 500;
+    color: $em-color;
+  }
+
+  tr:nth-child(even) {
+    background-color: $table-even-bg;
+  }
+}
